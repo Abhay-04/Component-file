@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root{
-    --primary: #6C63FF;
+    --primary: #2563eb;
     --gray: #F3F4F6;
     --dark-gray:#6B7280;
 
@@ -78,4 +78,94 @@ h1 {
 
    /* navigation css */
 
+   .nav-bar {
+    background-color: var(--primary);
+    color: white;
+    padding: 1rem 0rem;
+    border-bottom-left-radius: 1rem ;
+    
+   }
+
+   .brand{
+    font-weight: bold;
+   }
+    .nav-bar ul{
+        text-align: right;
+        list-style: none;
+
+    }
+
+   .nav-bar ul li{
+    display: inline-block;
+    padding: 0rem 0.8rem;
+   }
+
+   .nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+    
+      }
+       
+   .nav-bar .active {
+    font-weight: bold;
+   }   
+
+
+   /* header css */
+
+   .hero {
+   color: var(--dark-gray);
+   /* display: block; */
+   }
+
+   .hero img{
+    display: block;
+    max-width: 350px;
+    margin: auto;
+   } 
+
+
+
+   /* section css */
+
+   section{
+    padding: 2rem 0rem;
+   }
+
+   section h2{
+    text-align: center;
+   }
+
+   .ow{
+    background-color: var(--gray);
+   }
+
+
+   /* footer */
+
+   .footer{
+    background-color: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 2rem 0rem;
+    border-top-right-radius:1rem ;
+
+   }
+ 
+.footer .heading{
+    font-weight: bold;
+    font-size: larger;
+}
+ 
+.footer ul li a{
+    display: inline;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
    
