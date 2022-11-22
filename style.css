@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root{
+    --primary: #6C63FF;
+    --gray: #F3F4F6;
+    --dark-gray:#6B7280;
 
 }
 
@@ -20,3 +23,59 @@ h1 {
     font-weight: bolder;
 
 }
+
+/* Containers css */
+
+.container-fluid {
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    max-width: 600px;
+}
+
+
+/* links css */
+.link-primary {
+    text-decoration: none;
+    background-color: var(--primary);
+    color: white;
+    width: max-content;
+    min-width: 140px;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+   }
+
+   .link-secondary {
+    text-decoration: none;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    width: max-content;
+    min-width: 140px;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+
+   }
+
+
+   /* lists css */
+    
+   .list-unordered{
+    list-style: none;
+   }
+
+   .list-inline-li {
+    display: inline;
+    padding: 0rem 0.5rem;
+
+   }
+
+
+   /* navigation css */
+
+   
